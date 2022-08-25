@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+.titulouno{
+    font-size: auto;
+    align-items: center;
+}
+
+#barra{
+    display: flex;
+    justify-content: center;
+    background-color: #1C1B35;
+    color: white;   
+}
+#barra a{
+    background-color: #1C1B35;
+    color: white;   
+}
+
+#barra a:hover{
+    background-color: #131066;
+    color: white;   
+}
+span{
+    background-color: aliceblue;
+}
+
+ul{
+    flex: auto;
+}
+li{
+    flex: auto;
+    text-align: center;
+}
+h2{
+    flex: auto;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+
+}
+p{
+    display: flex;
+
+}
+#botonCotiza a{
+    border-radius:20px;
+    padding: 10px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(8, 216, 36);
+}
+#botonCotiza a:hover{
+    border-radius:20px;
+    padding: 10px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(19, 102, 44);
+}
+section div{
+    height:100vh;
+    background-image: url(../img/estatua_libertad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+aside{
+    position: absolute;
+    bottom: 80px; 
+}
+label{
+    border: none;
+    color: white;
+    font-size: large;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color:  #1C1B35;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .navbar-brand{
+        display: none;
+    }
+ }
