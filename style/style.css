@@ -53,6 +53,7 @@ p{
     display: flex;
 
 }
+
 #botonCotiza a{
     border-radius:20px;
     padding: 10px;
@@ -69,18 +70,28 @@ p{
     text-decoration: none;
     background-color: rgb(19, 102, 44);
 }
-section div{
+main{
     height:100vh;
     background-image: url(../img/estatua_libertad.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-aside{
-    position: absolute;
-    bottom: 80px; 
+#caja{
+    display: flex;
+    justify-content: space-around;
 }
+#cajaDos{
+    display: flex;
+    justify-content: space-around;
+}
+.contFor{
+    display: flex;
+    justify-content: flex-start;
+}
+
 label{
+    flex: auto;
     border: none;
     color: white;
     font-size: large;
